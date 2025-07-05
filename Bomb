@@ -1,0 +1,12 @@
+import time
+
+bomba = input("Deseja acionar a bomba? Digite sim ou não: ")
+
+if bomba.lower() == "sim":
+    print("A bomba foi acionada")
+    for i in range(10, 0, -1):
+        print(i)
+        time.sleep(1)
+    print("A bomba explodiu")
+else:
+    print("A bomba não foi acionada.")
