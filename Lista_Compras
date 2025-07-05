@@ -1,0 +1,9 @@
+supermercado_lista = []
+
+while True:
+    item = input("Digite 'Sair' para encerrar ou acrescente itens à lista de compras: ")
+    if item.lower() == "sair":
+        break
+    supermercado_lista.append(item)
+
+print(f"Sua lista de compras é: {supermercado_lista}")
