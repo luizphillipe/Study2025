@@ -4,11 +4,9 @@ bomba = input("Deseja acionar a bomba? Digite sim ou não: ")
 
 if bomba.lower() == "sim":
     print("A bomba foi acionada")
-    for i in range(10, 0, -1):
-        print(i)
+    for i in range(30, 0, -1):
+        print(f"{i} Segundos")
         time.sleep(1)
     print("A bomba explodiu")
 else:
     print("A bomba não foi acionada.")
-
-#https://colab.research.google.com/drive/118wdFcQTCaE7Lt9GO4gjxidhmGgRBl0U
