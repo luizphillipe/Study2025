@@ -1,0 +1,12 @@
+usuario = "Usuario"
+senha = "2025"
+
+while True:
+    usuario_login = input("Digite seu usuário: ")
+    senha_login = input ("Digite sua senha: ")
+
+    if usuario_login == usuario and senha_login == senha:
+        print("Login realizado com sucesso!")
+        break
+    else:
+        print("Usuário ou senha incorretos. Tente novamente.")
