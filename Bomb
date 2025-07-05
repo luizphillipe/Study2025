@@ -10,3 +10,5 @@ if bomba.lower() == "sim":
     print("A bomba explodiu")
 else:
     print("A bomba não foi acionada.")
+
+#https://colab.research.google.com/drive/13dQ0CVNMe75Spw8CqRTFBypu55r2ynF4?usp=sharing
